@@ -18,10 +18,8 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         super.viewDidLoad()
         emailSignIn.delegate = self
         passwordSignIn.delegate = self
-        self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
-        self.navigationController?.navigationBar.shadowImage = UIImage()
-        self.navigationController?.navigationBar.isTranslucent = true
-        self.navigationController?.view.backgroundColor = UIColor.clear
+        super.viewWillDisappear(true)
+        navigationController?.setNavigationBarHidden(true, animated: true)
     }
     
     func dismissKeyboard() {

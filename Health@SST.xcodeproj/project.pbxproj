@@ -10,7 +10,6 @@
 		A5AD78AD41DDA54E8CF5AD43 /* Pods_Health_SST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB41ADF67F7C0A603D773EA /* Pods_Health_SST.framework */; };
 		B20176E72107EB1B008A53D5 /* CalorieInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B20176E62107EB1B008A53D5 /* CalorieInputViewController.swift */; };
 		B20176E92107ECE4008A53D5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B20176E82107ECE4008A53D5 /* GoogleService-Info.plist */; };
-		B242138A210694A9003C0EF3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2421389210694A9003C0EF3 /* WelcomeViewController.swift */; };
 		B242138C2106957D003C0EF3 /* BMICalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B242138B2106957D003C0EF3 /* BMICalculatorViewController.swift */; };
 		B24F0C382107E5EB00CD63A5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24F0C372107E5EB00CD63A5 /* SignInViewController.swift */; };
 		B24F0C3A2107E65800CD63A5 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24F0C392107E65800CD63A5 /* MainMenuViewController.swift */; };
@@ -26,7 +25,6 @@
 		8BAA4D0EE78EE5BACFF3D43C /* Pods-Health@SST.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Health@SST.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Health@SST/Pods-Health@SST.debug.xcconfig"; sourceTree = "<group>"; };
 		B20176E62107EB1B008A53D5 /* CalorieInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieInputViewController.swift; sourceTree = "<group>"; };
 		B20176E82107ECE4008A53D5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B2421389210694A9003C0EF3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B242138B2106957D003C0EF3 /* BMICalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMICalculatorViewController.swift; sourceTree = "<group>"; };
 		B24F0C372107E5EB00CD63A5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B24F0C392107E65800CD63A5 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				B2EB35132105B90800E77EDA /* AppDelegate.swift */,
 				B27B9D8D2105D8E000A560DC /* DesignableViewController.swift */,
 				B2EB35172105B90800E77EDA /* Main.storyboard */,
-				B2421389210694A9003C0EF3 /* WelcomeViewController.swift */,
 				B24F0C372107E5EB00CD63A5 /* SignInViewController.swift */,
 				B24F0C392107E65800CD63A5 /* MainMenuViewController.swift */,
 				B20176E62107EB1B008A53D5 /* CalorieInputViewController.swift */,
@@ -224,7 +221,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24F0C3A2107E65800CD63A5 /* MainMenuViewController.swift in Sources */,
-				B242138A210694A9003C0EF3 /* WelcomeViewController.swift in Sources */,
 				B27B9D8E2105D8E000A560DC /* DesignableViewController.swift in Sources */,
 				B2EB35142105B90800E77EDA /* AppDelegate.swift in Sources */,
 				B20176E72107EB1B008A53D5 /* CalorieInputViewController.swift in Sources */,
@@ -380,7 +376,10 @@
 				DEVELOPMENT_TEAM = 2X6R37HZHB;
 				INFOPLIST_FILE = "Health@SST/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.informatio.Health-SST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -397,7 +396,10 @@
 				DEVELOPMENT_TEAM = 2X6R37HZHB;
 				INFOPLIST_FILE = "Health@SST/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.informatio.Health-SST";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
