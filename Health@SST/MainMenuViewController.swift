@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class MainMenuViewController: UIViewController {
 
@@ -14,5 +15,13 @@ class MainMenuViewController: UIViewController {
         super.viewDidLoad()
         self.title = "Menu"
     }
-
+    
+    @IBAction func logOut(_ sender: Any) {
+        let firebaseAuth = Auth.auth()
+        do {
+            try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+            print ("Error signing out: %@", signOutError)
+        }
+    }
 }

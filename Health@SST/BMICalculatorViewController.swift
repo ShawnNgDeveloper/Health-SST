@@ -21,6 +21,8 @@ class BMICalculatorViewController: UIViewController {
     @IBOutlet weak var healthRiskOutput: UILabel!
     
     @IBAction func calculateBMI(_ sender: Any) {
+        heightInput.resignFirstResponder()
+        massInput.resignFirstResponder()
         //UITextfield returns a string
         let ht : Double = (heightInput.text! as NSString).doubleValue
         let wt : Double = (massInput.text! as NSString).doubleValue
