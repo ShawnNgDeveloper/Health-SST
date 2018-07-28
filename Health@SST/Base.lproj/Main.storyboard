@@ -734,6 +734,7 @@
         <image name="Background Image Health@SST" width="398.16000366210938" height="398.16000366210938"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Wtz-0j-UUS"/>
         <segue reference="1ZY-c4-Cqh"/>
     </inferredMetricsTieBreakers>
 </document>
