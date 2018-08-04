@@ -44,7 +44,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
         if self.emailSignIn.text == "" || self.passwordSignIn.text == "" {
             
             //Alert to tell the user that there was an error because they didn't fill anything in the textfields because they didn't fill anything in
-            
+             
             let alertController = UIAlertController(title: "Error", message: "Please enter a valid email and password.", preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
@@ -81,7 +81,7 @@ class SignInViewController: UIViewController, UITextFieldDelegate {
     }
     
     @IBAction func signUp(_ sender: Any) {
-        if emailSignIn.text == "" {
+        if emailSignIn.text == " " {
             let alertController = UIAlertController(title: "Error", message: "Please enter your email and password", preferredStyle: .alert)
             
             let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)

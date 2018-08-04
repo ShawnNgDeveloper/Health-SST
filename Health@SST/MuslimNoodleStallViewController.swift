@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  MuslimNoodleStallViewController.swift
 //  Health@SST
 //
 //  Created by Shawn Ng Y K on 4/8/18.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class MuslimNoodleStallViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Welcome"
+        super.viewDidLoad()
+        self.title = "Muslim Noodle Stall"
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true

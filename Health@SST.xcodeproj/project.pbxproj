@@ -14,6 +14,14 @@
 		B24F0C382107E5EB00CD63A5 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24F0C372107E5EB00CD63A5 /* SignInViewController.swift */; };
 		B24F0C3A2107E65800CD63A5 /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24F0C392107E65800CD63A5 /* MainMenuViewController.swift */; };
 		B27B9D8E2105D8E000A560DC /* DesignableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B27B9D8D2105D8E000A560DC /* DesignableViewController.swift */; };
+		B2C8A7022115BCCA00FDD161 /* ChineseNoodleStallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A7012115BCCA00FDD161 /* ChineseNoodleStallViewController.swift */; };
+		B2C8A7042115BDB900FDD161 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A7032115BDB900FDD161 /* WelcomeViewController.swift */; };
+		B2C8A7062115BF4000FDD161 /* ChineseRiceStallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A7052115BF4000FDD161 /* ChineseRiceStallViewController.swift */; };
+		B2C8A7082115BF6800FDD161 /* BeveragesStallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A7072115BF6800FDD161 /* BeveragesStallViewController.swift */; };
+		B2C8A70A2115BF8200FDD161 /* MuslimNoodleStallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A7092115BF8200FDD161 /* MuslimNoodleStallViewController.swift */; };
+		B2C8A70C2115BF9500FDD161 /* MuslimRiceStallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A70B2115BF9500FDD161 /* MuslimRiceStallViewController.swift */; };
+		B2C8A70E2115BFB800FDD161 /* WesternFusionStallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A70D2115BFB800FDD161 /* WesternFusionStallViewController.swift */; };
+		B2C8A7102115BFD300FDD161 /* CafeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C8A70F2115BFD300FDD161 /* CafeViewController.swift */; };
 		B2EB35142105B90800E77EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2EB35132105B90800E77EDA /* AppDelegate.swift */; };
 		B2EB35192105B90800E77EDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EB35172105B90800E77EDA /* Main.storyboard */; };
 		B2EB351B2105B90A00E77EDA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EB351A2105B90A00E77EDA /* Assets.xcassets */; };
@@ -29,6 +37,14 @@
 		B24F0C372107E5EB00CD63A5 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B24F0C392107E65800CD63A5 /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		B27B9D8D2105D8E000A560DC /* DesignableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableViewController.swift; sourceTree = "<group>"; };
+		B2C8A7012115BCCA00FDD161 /* ChineseNoodleStallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseNoodleStallViewController.swift; sourceTree = "<group>"; };
+		B2C8A7032115BDB900FDD161 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B2C8A7052115BF4000FDD161 /* ChineseRiceStallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseRiceStallViewController.swift; sourceTree = "<group>"; };
+		B2C8A7072115BF6800FDD161 /* BeveragesStallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeveragesStallViewController.swift; sourceTree = "<group>"; };
+		B2C8A7092115BF8200FDD161 /* MuslimNoodleStallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimNoodleStallViewController.swift; sourceTree = "<group>"; };
+		B2C8A70B2115BF9500FDD161 /* MuslimRiceStallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuslimRiceStallViewController.swift; sourceTree = "<group>"; };
+		B2C8A70D2115BFB800FDD161 /* WesternFusionStallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WesternFusionStallViewController.swift; sourceTree = "<group>"; };
+		B2C8A70F2115BFD300FDD161 /* CafeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeViewController.swift; sourceTree = "<group>"; };
 		B2EB35102105B90800E77EDA /* Health@SST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Health@SST.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2EB35132105B90800E77EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2EB35182105B90800E77EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -83,10 +99,18 @@
 				B2EB35132105B90800E77EDA /* AppDelegate.swift */,
 				B27B9D8D2105D8E000A560DC /* DesignableViewController.swift */,
 				B2EB35172105B90800E77EDA /* Main.storyboard */,
+				B2C8A7032115BDB900FDD161 /* WelcomeViewController.swift */,
 				B24F0C372107E5EB00CD63A5 /* SignInViewController.swift */,
 				B24F0C392107E65800CD63A5 /* MainMenuViewController.swift */,
 				B20176E62107EB1B008A53D5 /* CalorieInputViewController.swift */,
 				B242138B2106957D003C0EF3 /* BMICalculatorViewController.swift */,
+				B2C8A7012115BCCA00FDD161 /* ChineseNoodleStallViewController.swift */,
+				B2C8A7052115BF4000FDD161 /* ChineseRiceStallViewController.swift */,
+				B2C8A7072115BF6800FDD161 /* BeveragesStallViewController.swift */,
+				B2C8A7092115BF8200FDD161 /* MuslimNoodleStallViewController.swift */,
+				B2C8A70B2115BF9500FDD161 /* MuslimRiceStallViewController.swift */,
+				B2C8A70D2115BFB800FDD161 /* WesternFusionStallViewController.swift */,
+				B2C8A70F2115BFD300FDD161 /* CafeViewController.swift */,
 				B2EB351A2105B90A00E77EDA /* Assets.xcassets */,
 				B2EB351C2105B90A00E77EDA /* LaunchScreen.storyboard */,
 				B20176E82107ECE4008A53D5 /* GoogleService-Info.plist */,
@@ -221,11 +245,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				B24F0C3A2107E65800CD63A5 /* MainMenuViewController.swift in Sources */,
+				B2C8A7102115BFD300FDD161 /* CafeViewController.swift in Sources */,
+				B2C8A7042115BDB900FDD161 /* WelcomeViewController.swift in Sources */,
+				B2C8A7022115BCCA00FDD161 /* ChineseNoodleStallViewController.swift in Sources */,
+				B2C8A7062115BF4000FDD161 /* ChineseRiceStallViewController.swift in Sources */,
 				B27B9D8E2105D8E000A560DC /* DesignableViewController.swift in Sources */,
 				B2EB35142105B90800E77EDA /* AppDelegate.swift in Sources */,
+				B2C8A7082115BF6800FDD161 /* BeveragesStallViewController.swift in Sources */,
+				B2C8A70C2115BF9500FDD161 /* MuslimRiceStallViewController.swift in Sources */,
 				B20176E72107EB1B008A53D5 /* CalorieInputViewController.swift in Sources */,
+				B2C8A70A2115BF8200FDD161 /* MuslimNoodleStallViewController.swift in Sources */,
 				B24F0C382107E5EB00CD63A5 /* SignInViewController.swift in Sources */,
 				B242138C2106957D003C0EF3 /* BMICalculatorViewController.swift in Sources */,
+				B2C8A70E2115BFB800FDD161 /* WesternFusionStallViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

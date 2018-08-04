@@ -1,5 +1,5 @@
 //
-//  WelcomeViewController.swift
+//  CafeViewController.swift
 //  Health@SST
 //
 //  Created by Shawn Ng Y K on 4/8/18.
@@ -8,11 +8,12 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
+class CafeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "Welcome"
+        super.viewDidLoad()
+        self.title = "Cafe Stall"
         self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: UIBarMetrics.default)
         self.navigationController?.navigationBar.shadowImage = UIImage()
         self.navigationController?.navigationBar.isTranslucent = true
